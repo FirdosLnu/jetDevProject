@@ -1,21 +1,16 @@
-package com.techtalk.spring_crud_app;
+package com.jetdev.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import org.springframework.web.filter.CorsFilter;
-
-import java.util.Arrays;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
+@EnableSwagger2
 public class SpringCrudAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCrudAppApplication.class, args);
 	}
-
 
 }

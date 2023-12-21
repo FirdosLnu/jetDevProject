@@ -1,7 +1,7 @@
-package com.techtalk.spring_crud_app.repository;
+package com.jetdev.app.repository;
 
 
-import com.techtalk.spring_crud_app.model.Employee;
+import com.jetdev.app.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EmployeeRepository extends JpaRepository<Employee,Integer> {
